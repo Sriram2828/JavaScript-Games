@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+    background-color: #4c4c4c;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* main container */
+.container {
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* game-board */
+canvas {
+    background-color: #005d0b;
+    display: block;
+    margin: 0 auto;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* score bord */
+.score-board {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* start button */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #018907;
+    color: #fff;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #19d800;
+    color: #fff;
+}
